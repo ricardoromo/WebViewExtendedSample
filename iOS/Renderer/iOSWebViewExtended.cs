@@ -24,8 +24,7 @@ namespace WebViewExtendedSample.iOS
 		protected override void OnElementChanged (ElementChangedEventArgs<WebViewExtended> e)
 		{
 			base.OnElementChanged (e);
-
-			if (Element != null) {
+			if (e.NewElement != null) {
 				CustomWebView = (WebViewExtended)Element;
 				UIView contentView = new UIView (this.Frame);
 

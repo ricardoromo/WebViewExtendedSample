@@ -22,7 +22,7 @@ namespace WebViewExtendedSample.Droid
 		protected override void OnElementChanged (ElementChangedEventArgs<WebViewExtended> e)
 		{
 			base.OnElementChanged (e);
-			if (Element != null) {
+			if (e.NewElement != null) {
 				CustomWebView = (WebViewExtended)Element;
 				LinearLayout contentView = new LinearLayout (Forms.Context);
 
