@@ -1,5 +1,7 @@
 # WebViewExtendedSample
-It's custom  WebView to display activity indicator while the page finished to load.
+
+Custom Renderer WebView Android/iOS to display activity indicator while the page finished to load.
+Contains the eventhandlers OnLoadStarted, OnLoadCompleted, OnLoadFailed;
 
 # Preview
 
